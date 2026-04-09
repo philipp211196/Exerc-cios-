@@ -1,21 +1,20 @@
-package Exercicios_listas;
+package Exercicios_listas2_;
 
 import java.util.Scanner;
 
 public class exercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int idade;
-
-        System.out.println("Digite sua idade ");
-        idade= sc.nextInt();
-        if (idade >= 18){
-            System.out.println("Voçê e maior de idade !!! ");}
-        else {
-            System.out.println("Você e menor de idade, entrada proibida !!");
-
-
-
-
+        int id,ida;
+        System.out.println("Digite a sua data de nascimento e a data atual.");
+        id = sc.nextInt();
+        ida= sc.nextInt();
+        id = ida-id;
+        if (id>=18){
+            System.out.println("Maior de idade.");
         }
-}}
+        else {
+            System.out.println("Menor de idade.");
+        }
+    }
+}
